@@ -1,5 +1,60 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
+body {
+    flex-direction: column;
+    background-color: rgb(1, 180, 1);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-body{
-    background: white;
+.card-style {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    background-color: white;
+    width: 400px;
+    height: 600px;
+}
+
+.suits {
+    font-size: 160px;
+    width: 100%;
+}
+
+.left-suits {
+    margin-left: 20px;
+}
+
+.right-suits {
+    transform: rotate(180deg);
+    margin-right: 20px;
+}
+
+.number {
+    font-size: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.red {
+    color: red;
+}
+
+.black {
+    color: black;
+}
+.countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 60px;
+    width: 60px;
+    margin: 30px;
+    border-radius: 100px;
 }
